@@ -15,7 +15,7 @@ export const ChessBoard: React.FC = () => {
   const lastMove = moveHistory[moveHistory.length - 1]
 
   return (
-    <div className="relative">
+    <div className="relative" style={{height: '520px'}}>
       <CheckStatusIndicator />
       <div className="grid grid-cols-8 border-4 border-gray-800 shadow-2xl rounded-lg overflow-hidden">
         {board.map((row, rowIndex) =>
