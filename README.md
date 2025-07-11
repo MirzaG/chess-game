@@ -2,6 +2,10 @@
 
 A comprehensive 2D chess game built with React, Redux, and TypeScript featuring both human vs human and AI gameplay modes.
 
+
+# Live Demo
+[Play Game](https://v0-chess-ecru.vercel.app)
+
 # The Game Screenshot
 <img width="1898" height="805" alt="image" src="https://github.com/user-attachments/assets/fc9fb822-c64d-4707-a2c7-3e6c22a3bf5b" />
 
