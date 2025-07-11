@@ -5,6 +5,33 @@ A comprehensive 2D chess game built with React, Redux, and TypeScript featuring 
 # The Game Screenshot
 <img width="1898" height="805" alt="image" src="https://github.com/user-attachments/assets/fc9fb822-c64d-4707-a2c7-3e6c22a3bf5b" />
 
+## 📁 Project Structure
+
+```bash
+chess-game/
+├── components/           # React components
+│   ├── ChessBoard.tsx   # Main game board
+│   ├── ChessSquare.tsx  # Individual squares
+│   ├── GameControls.tsx # Game management
+│   └── ...
+├── hooks/               # Custom React hooks
+│   ├── useChessGame.ts  # Main game logic
+│   ├── useChessBot.ts   # AI opponent logic
+│   └── useChessComAPI.ts # API integration
+├── store/               # Redux store
+│   ├── gameSlice.ts     # Game state management
+│   └── store.ts         # Store configuration
+├── contexts/            # React Context providers
+│   └── AppContext.tsx   # App-level state
+├── types/               # TypeScript definitions
+│   └── chess.ts         # Game type definitions
+├── utils/               # Utility functions
+│   └── chessUtils.ts    # Chess logic and rules
+└── app/                 # Next.js app directory
+    ├── page.tsx         # Main page
+    └── layout.tsx       # App layout
+```
+
 
 ## ✨ Features
 
@@ -17,7 +44,7 @@ A comprehensive 2D chess game built with React, Redux, and TypeScript featuring 
 - **Medium**: Prioritizes captures, otherwise random
 - **Hard**: Evaluates moves with piece values and positional play
 
-### 🎯 Chess Rules Implementation
+### 🎯 Chess Rules in place
 - **Complete Move Validation**: All standard chess piece movements
 - **Check Detection**: Automatic detection with visual king highlighting
 - **Checkmate & Stalemate**: Proper game ending conditions
@@ -86,33 +113,6 @@ A comprehensive 2D chess game built with React, Redux, and TypeScript featuring 
 - **GameControls**: Mode selection and game management
 - **ThemeSelector**: Visual theme customization
 - **UserProfile**: Chess.com integration interface
-
-## 📁 Project Structure
-
-```bash
-chess-game/
-├── components/           # React components
-│   ├── ChessBoard.tsx   # Main game board
-│   ├── ChessSquare.tsx  # Individual squares
-│   ├── GameControls.tsx # Game management
-│   └── ...
-├── hooks/               # Custom React hooks
-│   ├── useChessGame.ts  # Main game logic
-│   ├── useChessBot.ts   # AI opponent logic
-│   └── useChessComAPI.ts # API integration
-├── store/               # Redux store
-│   ├── gameSlice.ts     # Game state management
-│   └── store.ts         # Store configuration
-├── contexts/            # React Context providers
-│   └── AppContext.tsx   # App-level state
-├── types/               # TypeScript definitions
-│   └── chess.ts         # Game type definitions
-├── utils/               # Utility functions
-│   └── chessUtils.ts    # Chess logic and rules
-└── app/                 # Next.js app directory
-    ├── page.tsx         # Main page
-    └── layout.tsx       # App layout
-```
 
 ## 🎮 How to Play
 
