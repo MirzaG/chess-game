@@ -2,7 +2,9 @@
 
 A comprehensive 2D chess game built with React, Redux, and TypeScript featuring both human vs human and AI gameplay modes.
 
-![The Game Screenshot](https://via.placeholder.com/800x600/f0d9b5/8B4513?text=Chess+Game+Screenshot)
+# The Game Screenshot
+<img width="1898" height="805" alt="image" src="https://github.com/user-attachments/assets/fc9fb822-c64d-4707-a2c7-3e6c22a3bf5b" />
+
 
 ## ✨ Features
 
