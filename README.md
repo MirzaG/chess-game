@@ -2,7 +2,7 @@
 
 A comprehensive 2D chess game built with React, Redux, and TypeScript featuring both human vs human and AI gameplay modes.
 
-![Chess Game Screenshot](https://via.placeholder.com/800x600/f0d9b5/8B4513?text=Chess+Game+Screenshot)
+![The Game Screenshot](https://via.placeholder.com/800x600/f0d9b5/8B4513?text=Chess+Game+Screenshot)
 
 ## ✨ Features
 
@@ -42,24 +42,24 @@ A comprehensive 2D chess game built with React, Redux, and TypeScript featuring 
 ### Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/MirzaG/chess-game.git
    cd chess-game
-   \`\`\`
+   ```
 
 2. **Install dependencies**
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
 3. **Start the development server**
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
 4. **Open your browser**
    Navigate to \`http://localhost:3000\`
@@ -87,7 +87,7 @@ A comprehensive 2D chess game built with React, Redux, and TypeScript featuring 
 
 ## 📁 Project Structure
 
-\`\`\`
+```bash
 chess-game/
 ├── components/           # React components
 │   ├── ChessBoard.tsx   # Main game board
@@ -110,7 +110,7 @@ chess-game/
 └── app/                 # Next.js app directory
     ├── page.tsx         # Main page
     └── layout.tsx       # App layout
-\`\`\`
+```
 
 ## 🎮 How to Play
 
@@ -173,47 +173,9 @@ The chess bot uses different strategies based on difficulty:
 No environment variables required for basic functionality. Chess.com integration is simulated by default.
 
 ### Customization
-- **Themes**: Modify \`contexts/AppContext.tsx\` to add new color schemes
-- **AI Difficulty**: Adjust evaluation functions in \`hooks/useChessBot.ts\`
-- **Board Size**: Update grid dimensions in \`components/ChessBoard.tsx\`
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Game doesn't start**
-- Ensure all dependencies are installed: \`npm install\`
-- Check that you're using Node.js 18+
-
-**Moves not working**
-- Make sure you're selecting your own pieces (correct color)
-- Verify the move is legal (doesn't leave king in check)
-
-**Visual glitches**
-- Try refreshing the page
-- Check browser compatibility (modern browsers recommended)
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how to get started:
-
-1. **Fork the repository**
-2. **Create a feature branch**: \`git checkout -b feature/amazing-feature\`
-3. **Make your changes**: Follow the existing code style
-4. **Add tests**: Ensure your changes work correctly
-5. **Commit changes**: \`git commit -m 'Add amazing feature'\`
-6. **Push to branch**: \`git push origin feature/amazing-feature\`
-7. **Open a Pull Request**: Describe your changes clearly
-
-### Development Guidelines
-- Use TypeScript for all new code
-- Follow the existing component structure
-- Add proper error handling
-- Update documentation for new features
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Themes**: Modify `contexts/AppContext.tsx` to add new color schemes
+- **AI Difficulty**: Adjust evaluation functions in `hooks/useChessBot.ts`
+- **Board Size**: Update grid dimensions in `components/ChessBoard.tsx`
 
 ## 🔮 Future Enhancements
 
